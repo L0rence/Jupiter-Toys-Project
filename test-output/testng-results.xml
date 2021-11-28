@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-28T21:57:29Z" name="Jupitor Toys Test Automation Test Suite" finished-at="2021-11-28T21:58:42Z" duration-ms="72948">
+    <groups>
+    </groups>
+    <test started-at="2021-11-28T21:57:29Z" name="Jupitor Toys Test Cases" finished-at="2021-11-28T21:58:42Z" duration-ms="72948">
+      <class name="com.jupitor.qa.testcases.Toy_homePage_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_homePage_test@3098cf3b]" started-at="2021-11-29T10:57:29Z" name="setUp" finished-at="2021-11-29T10:57:36Z" duration-ms="7135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactPageTitleTest()[pri:1, instance:com.jupitor.qa.testcases.Toy_homePage_test@3098cf3b]" started-at="2021-11-29T10:57:36Z" name="contactPageTitleTest" finished-at="2021-11-29T10:57:36Z" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_homePage_test@3098cf3b]" started-at="2021-11-29T10:57:36Z" name="tearDown" finished-at="2021-11-29T10:57:37Z" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jupitor.qa.testcases.Toy_homePage_test -->
+      <class name="com.jupitor.qa.testcases.ShopPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:57:59Z" name="setUp" finished-at="2021-11-29T10:58:02Z" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ShopPage_TitleTest()[pri:1, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:02Z" name="ShopPage_TitleTest" finished-at="2021-11-29T10:58:03Z" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopPage_TitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:03Z" name="tearDown" finished-at="2021-11-29T10:58:03Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:08Z" name="setUp" finished-at="2021-11-29T10:58:12Z" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Validate_Buy_Animals_Test()[pri:2, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:12Z" name="Validate_Buy_Animals_Test" finished-at="2021-11-29T10:58:14Z" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Buy_Animals_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:14Z" name="tearDown" finished-at="2021-11-29T10:58:14Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:20Z" name="setUp" finished-at="2021-11-29T10:58:24Z" duration-ms="4741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Each_Product_sub_total()[pri:3, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:24Z" name="Each_Product_sub_total" finished-at="2021-11-29T10:58:26Z" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Each_Product_sub_total -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:26Z" name="tearDown" finished-at="2021-11-29T10:58:26Z" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:26Z" name="setUp" finished-at="2021-11-29T10:58:30Z" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Validate_Price_for_each_product()[pri:3, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:30Z" name="Validate_Price_for_each_product" finished-at="2021-11-29T10:58:32Z" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Price_for_each_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.ShopPageTest@6a03bcb1]" started-at="2021-11-29T10:58:32Z" name="tearDown" finished-at="2021-11-29T10:58:32Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jupitor.qa.testcases.ShopPageTest -->
+      <class name="com.jupitor.qa.testcases.Toy_ContactsPage_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:57:37Z" name="setUp" finished-at="2021-11-29T10:57:41Z" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateSuccessfullSubmission()[pri:1, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:57:41Z" name="ValidateSuccessfullSubmission" finished-at="2021-11-29T10:57:50Z" duration-ms="9234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccessfullSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:57:50Z" name="tearDown" finished-at="2021-11-29T10:57:50Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:57:50Z" name="setUp" finished-at="2021-11-29T10:57:55Z" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateSuccessfullSubmission()[pri:1, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:57:55Z" name="ValidateSuccessfullSubmission" finished-at="2021-11-29T10:57:58Z" duration-ms="3762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccessfullSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:57:58Z" name="tearDown" finished-at="2021-11-29T10:57:59Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:03Z" name="setUp" finished-at="2021-11-29T10:58:07Z" duration-ms="4020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateErrors()[pri:2, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:07Z" name="validateErrors" finished-at="2021-11-29T10:58:08Z" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:08Z" name="tearDown" finished-at="2021-11-29T10:58:08Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:14Z" name="setUp" finished-at="2021-11-29T10:58:18Z" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Populate_mandatory_filelds()[pri:3, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:18Z" name="Populate_mandatory_filelds" finished-at="2021-11-29T10:58:19Z" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Populate_mandatory_filelds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:19Z" name="tearDown" finished-at="2021-11-29T10:58:20Z" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:32Z" name="setUp" finished-at="2021-11-29T10:58:37Z" duration-ms="4398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Validate_Errors_Are_Gone()[pri:4, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:37Z" name="Validate_Errors_Are_Gone" finished-at="2021-11-29T10:58:37Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Errors_Are_Gone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:37Z" name="tearDown" finished-at="2021-11-29T10:58:37Z" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:37Z" name="setUp" finished-at="2021-11-29T10:58:41Z" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsLinkTest()[pri:5, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:41Z" name="verifyContactsLinkTest" finished-at="2021-11-29T10:58:42Z" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupitor.qa.testcases.Toy_ContactsPage_test@610f7aa]" started-at="2021-11-29T10:58:42Z" name="tearDown" finished-at="2021-11-29T10:58:42Z" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jupitor.qa.testcases.Toy_ContactsPage_test -->
+    </test> <!-- Jupitor Toys Test Cases -->
+  </suite> <!-- Jupitor Toys Test Automation Test Suite -->
+</testng-results>

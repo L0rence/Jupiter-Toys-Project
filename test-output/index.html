@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Jupitor Toys Test Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Jupitor_Toys_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" class="hide-methods passed suite-Jupitor_Toys_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Jupitor_Toys_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" class="show-methods passed suite-Jupitor_Toys_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Jupitor_Toys_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Jupitor_Toys_Test_Automation_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.ShopPageTest" class="method navigator-link" hash-for-method="Each_Product_sub_total">Each_Product_sub_total</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_ContactsPage_test" class="method navigator-link" hash-for-method="Populate_mandatory_filelds">Populate_mandatory_filelds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.ShopPageTest" class="method navigator-link" hash-for-method="ShopPage_TitleTest">ShopPage_TitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_ContactsPage_test" class="method navigator-link" hash-for-method="ValidateSuccessfullSubmission">ValidateSuccessfullSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_ContactsPage_test" class="method navigator-link" hash-for-method="ValidateSuccessfullSubmission">ValidateSuccessfullSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.ShopPageTest" class="method navigator-link" hash-for-method="Validate_Buy_Animals_Test">Validate_Buy_Animals_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_ContactsPage_test" class="method navigator-link" hash-for-method="Validate_Errors_Are_Gone">Validate_Errors_Are_Gone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.ShopPageTest" class="method navigator-link" hash-for-method="Validate_Price_for_each_product">Validate_Price_for_each_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_homePage_test" class="method navigator-link" hash-for-method="contactPageTitleTest">contactPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_ContactsPage_test" class="method navigator-link" hash-for-method="validateErrors">validateErrors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" title="com.jupitor.qa.testcases.Toy_ContactsPage_test" class="method navigator-link" hash-for-method="verifyContactsLinkTest">verifyContactsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Jupitor_Toys_Test_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Jupitor_Toys_Test_Automation_Test_Suite" class="panel Jupitor_Toys_Test_Automation_Test_Suite">
+          <div class="suite-Jupitor_Toys_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jupitor.qa.testcases.Toy_ContactsPage_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Populate_mandatory_filelds">
+                  </a> <!-- Populate_mandatory_filelds -->
+                  <span class="method-name">Populate_mandatory_filelds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSuccessfullSubmission">
+                  </a> <!-- ValidateSuccessfullSubmission -->
+                  <span class="method-name">ValidateSuccessfullSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSuccessfullSubmission">
+                  </a> <!-- ValidateSuccessfullSubmission -->
+                  <span class="method-name">ValidateSuccessfullSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Errors_Are_Gone">
+                  </a> <!-- Validate_Errors_Are_Gone -->
+                  <span class="method-name">Validate_Errors_Are_Gone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateErrors">
+                  </a> <!-- validateErrors -->
+                  <span class="method-name">validateErrors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsLinkTest">
+                  </a> <!-- verifyContactsLinkTest -->
+                  <span class="method-name">verifyContactsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Jupitor_Toys_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Jupitor_Toys_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jupitor.qa.testcases.ShopPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Each_Product_sub_total">
+                  </a> <!-- Each_Product_sub_total -->
+                  <span class="method-name">Each_Product_sub_total</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShopPage_TitleTest">
+                  </a> <!-- ShopPage_TitleTest -->
+                  <span class="method-name">ShopPage_TitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Buy_Animals_Test">
+                  </a> <!-- Validate_Buy_Animals_Test -->
+                  <span class="method-name">Validate_Buy_Animals_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Price_for_each_product">
+                  </a> <!-- Validate_Price_for_each_product -->
+                  <span class="method-name">Validate_Price_for_each_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Jupitor_Toys_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Jupitor_Toys_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jupitor.qa.testcases.Toy_homePage_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactPageTitleTest">
+                  </a> <!-- contactPageTitleTest -->
+                  <span class="method-name">contactPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Jupitor_Toys_Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel Jupitor_Toys_Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chriselyn/Downloads/PageObjectModel-master/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Jupitor Toys Test Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Jupitor Toys Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jupitor.qa.testcases.Toy_homePage_test&quot;/&gt;
+      &lt;class name=&quot;com.jupitor.qa.testcases.Toy_ContactsPage_test&quot;/&gt;
+      &lt;class name=&quot;com.jupitor.qa.testcases.ShopPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Jupitor Toys Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Jupitor Toys Test Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Jupitor Toys Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Jupitor Toys Test Cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Jupitor Toys Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Jupitor Toys Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Jupitor_Toys_Test_Automation_Test_Suite');
+function tableData_Jupitor_Toys_Test_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateSuccessfullSubmission')
+data.setCell(0, 2, 'com.jupitor.qa.testcases.Toy_ContactsPage_test')
+data.setCell(0, 3, 9234);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateSuccessfullSubmission')
+data.setCell(1, 2, 'com.jupitor.qa.testcases.Toy_ContactsPage_test')
+data.setCell(1, 3, 3762);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Validate_Price_for_each_product')
+data.setCell(2, 2, 'com.jupitor.qa.testcases.ShopPageTest')
+data.setCell(2, 3, 1863);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Populate_mandatory_filelds')
+data.setCell(3, 2, 'com.jupitor.qa.testcases.Toy_ContactsPage_test')
+data.setCell(3, 3, 1546);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Each_Product_sub_total')
+data.setCell(4, 2, 'com.jupitor.qa.testcases.ShopPageTest')
+data.setCell(4, 3, 1486);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Validate_Buy_Animals_Test')
+data.setCell(5, 2, 'com.jupitor.qa.testcases.ShopPageTest')
+data.setCell(5, 3, 1219);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateErrors')
+data.setCell(6, 2, 'com.jupitor.qa.testcases.Toy_ContactsPage_test')
+data.setCell(6, 3, 809);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyContactsLinkTest')
+data.setCell(7, 2, 'com.jupitor.qa.testcases.Toy_ContactsPage_test')
+data.setCell(7, 3, 439);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ShopPage_TitleTest')
+data.setCell(8, 2, 'com.jupitor.qa.testcases.ShopPageTest')
+data.setCell(8, 3, 393);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'contactPageTitleTest')
+data.setCell(9, 2, 'com.jupitor.qa.testcases.Toy_homePage_test')
+data.setCell(9, 3, 237);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Validate_Errors_Are_Gone')
+data.setCell(10, 2, 'com.jupitor.qa.testcases.Toy_ContactsPage_test')
+data.setCell(10, 3, 144);
+window.suiteTableData['Jupitor_Toys_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Jupitor_Toys_Test_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Jupitor_Toys_Test_Automation_Test_Suite">
+              </div> <!-- times-div-Jupitor_Toys_Test_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Jupitor Toys Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Jupitor_Toys_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.Toy_homePage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactPageTitleTest</span>
+                <span class="method-start">7135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7375 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.Toy_ContactsPage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateSuccessfullSubmission</span>
+                <span class="method-start">12063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateSuccessfullSubmission</span>
+                <span class="method-start">25534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.ShopPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShopPage_TitleTest</span>
+                <span class="method-start">33465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33860 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.Toy_ContactsPage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrors</span>
+                <span class="method-start">38033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38845 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.ShopPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validate_Buy_Animals_Test</span>
+                <span class="method-start">43329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44549 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.Toy_ContactsPage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Populate_mandatory_filelds</span>
+                <span class="method-start">48874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50422 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.ShopPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Each_Product_sub_total</span>
+                <span class="method-start">55324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validate_Price_for_each_product</span>
+                <span class="method-start">61229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63093 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jupitor.qa.testcases.Toy_ContactsPage_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Validate_Errors_Are_Gone</span>
+                <span class="method-start">67679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactsLinkTest</span>
+                <span class="method-start">72271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72711 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

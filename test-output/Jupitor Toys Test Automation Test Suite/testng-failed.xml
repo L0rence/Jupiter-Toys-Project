@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jupitor Toys Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Jupitor Toys Test Cases(failed)">
+    <classes>
+      <class name="com.jupitor.qa.testcases.ShopPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Validate_Buy_Animals_Test"/>
+        </methods>
+      </class> <!-- com.jupitor.qa.testcases.ShopPageTest -->
+    </classes>
+  </test> <!-- Jupitor Toys Test Cases(failed) -->
+</suite> <!-- Failed suite [Jupitor Toys Test Automation Test Suite] -->
