@@ -7,7 +7,7 @@
 	</listeners>
 
 
-	<test name="Jupitor Toys Test Cases">
+	<test name="Jupitor Toys Test Case">
 		<classes>
 			<class name="com.jupitor.qa.testcases.Toy_homePage_test"></class>
 			<class name="com.jupitor.qa.testcases.Toy_ContactsPage_test"></class>
